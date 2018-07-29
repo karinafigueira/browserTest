@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="27.517" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="/home/karina/Documentos/browserTest/src/test/resources/chromedriver"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/karina/Documentos/browserTest/target/test-classes:/home/karina/Documentos/browserTest/target/classes:/home/karina/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/home/karina/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/karina/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/home/karina/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/karina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/karina/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/karina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/karina/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/karina/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/home/karina/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/karina/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/karina/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/karina/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/karina/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/karina/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/karina/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/karina/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/karina/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/karina/.m2/repository/com/google/inject/guice/4.2.0/guice-4.2.0.jar:/home/karina/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/karina/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/karina/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/home/karina/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/home/karina/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/home/karina/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/home/karina/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/karina/Documentos/browserTest/target/surefire/surefirebooter3762554209968980623.jar /home/karina/Documentos/browserTest/target/surefire 2018-07-28T22-37-23_658-jvmRun1 surefire6346060992465070853tmp surefire_01534292701052251795tmp"/>
+    <property name="surefire.test.class.path" value="/home/karina/Documentos/browserTest/target/test-classes:/home/karina/Documentos/browserTest/target/classes:/home/karina/.m2/repository/org/testng/testng/6.14.2/testng-6.14.2.jar:/home/karina/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/karina/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-java/3.11.0/selenium-java-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-api/3.11.0/selenium-api-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.11.0/selenium-chrome-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.11.0/selenium-edge-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.11.0/selenium-firefox-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.11.0/selenium-ie-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.11.0/selenium-opera-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.11.0/selenium-remote-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.11.0/selenium-safari-driver-3.11.0.jar:/home/karina/.m2/repository/org/seleniumhq/selenium/selenium-support/3.11.0/selenium-support-3.11.0.jar:/home/karina/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/home/karina/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/karina/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/karina/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/karina/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/karina/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/home/karina/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/karina/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/karina/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/karina/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/karina/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/karina/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/karina/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/karina/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/home/karina/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/home/karina/.m2/repository/com/google/inject/guice/4.2.0/guice-4.2.0.jar:/home/karina/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/karina/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/karina/.m2/repository/org/uncommons/reportng/1.1.4/reportng-1.1.4.jar:/home/karina/.m2/repository/velocity/velocity/1.4/velocity-1.4.jar:/home/karina/.m2/repository/velocity/velocity-dep/1.4/velocity-dep-1.4.jar:/home/karina/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.21.0/surefire-testng-utils-2.21.0.jar:/home/karina/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.21.0/surefire-grouper-2.21.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/karina"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
+    <property name="basedir" value="/home/karina/Documentos/browserTest"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/karina/Documentos/browserTest/target/surefire/surefirebooter3762554209968980623.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="user.name" value="karina"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-29-generic"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/karina/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="user.dir" value="/home/karina/Documentos/browserTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="/home/karina/Documentos/browserTest/src/test/resources/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldLogin" classname="simpleTest" time="7.308">
+    <failure message="Unable to locate element: html body.three-col.logged-out.western.pt.static-logged-out-home-page.no-nav-banners div#doc div.StaticLoggedOutHomePage div.StaticLoggedOutHomePage-content div.StaticLoggedOutHomePage-cell.StaticLoggedOutHomePage-utilityBlock div.StaticLoggedOutHomePage-signupBlock div.StaticLoggedOutHomePage-noSignupForm div.StaticLoggedOutHomePage-buttons a.js-nav.EdgeButton.EdgeButton--medium.EdgeButton--secondary.StaticLoggedOutHomePage-buttonLogin&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;karina&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-29-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 23462, moz:profile: /tmp/rust_mozprofile.yyodCL..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-29-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: 5d0d994a-77e6-4a85-a0d0-801fa295f3c8&#10;*** Element info: {Using=css selector, value=html body.three-col.logged-out.western.pt.static-logged-out-home-page.no-nav-banners div#doc div.StaticLoggedOutHomePage div.StaticLoggedOutHomePage-content div.StaticLoggedOutHomePage-cell.StaticLoggedOutHomePage-utilityBlock div.StaticLoggedOutHomePage-signupBlock div.StaticLoggedOutHomePage-noSignupForm div.StaticLoggedOutHomePage-buttons a.js-nav.EdgeButton.EdgeButton--medium.EdgeButton--secondary.StaticLoggedOutHomePage-buttonLogin}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: html body.three-col.logged-out.western.pt.static-logged-out-home-page.no-nav-banners div#doc div.StaticLoggedOutHomePage div.StaticLoggedOutHomePage-content div.StaticLoggedOutHomePage-cell.StaticLoggedOutHomePage-utilityBlock div.StaticLoggedOutHomePage-signupBlock div.StaticLoggedOutHomePage-noSignupForm div.StaticLoggedOutHomePage-buttons a.js-nav.EdgeButton.EdgeButton--medium.EdgeButton--secondary.StaticLoggedOutHomePage-buttonLogin
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'karina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-29-generic', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 23462, moz:profile: /tmp/rust_mozprofile.yyodCL..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-29-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 5d0d994a-77e6-4a85-a0d0-801fa295f3c8
+*** Element info: {Using=css selector, value=html body.three-col.logged-out.western.pt.static-logged-out-home-page.no-nav-banners div#doc div.StaticLoggedOutHomePage div.StaticLoggedOutHomePage-content div.StaticLoggedOutHomePage-cell.StaticLoggedOutHomePage-utilityBlock div.StaticLoggedOutHomePage-signupBlock div.StaticLoggedOutHomePage-noSignupForm div.StaticLoggedOutHomePage-buttons a.js-nav.EdgeButton.EdgeButton--medium.EdgeButton--secondary.StaticLoggedOutHomePage-buttonLogin}
+	at simpleTest.shouldLogin(simpleTest.java:37)
+</failure>
+    <system-err><![CDATA[1532828245882	geckodriver	INFO	geckodriver 0.20.0
+1532828245890	geckodriver	INFO	Listening on 127.0.0.1:14665
+1532828246190	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yyodCLayPChA"
+1532828251480	Marionette	INFO	Listening on port 34053
+1532828251535	Marionette	WARN	TLS certificate errors will be ignored for this session
+jul 28, 2018 10:37:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="shouldLogin" classname="simpleTest" time="10.223">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;.DashboardProfileCard-content&quot;}&#10;  (Session info: chrome=67.0.3396.99)&#10;  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Linux 4.15.0-29-generic x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;karina&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-29-generic&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}&#10;Session ID: 23e64d7a3cfc2a7043f07757464f9600&#10;*** Element info: {Using=css selector, value=.DashboardProfileCard-content}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":".DashboardProfileCard-content"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Linux 4.15.0-29-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'karina', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-29-generic', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 23e64d7a3cfc2a7043f07757464f9600
+*** Element info: {Using=css selector, value=.DashboardProfileCard-content}
+	at simpleTest.shouldLogin(simpleTest.java:45)
+</failure>
+    <system-err><![CDATA[*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1532828260537	geckodriver::marionette	ERROR	Failed to stop browser process
+Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 10637
+Only local connections are allowed.
+jul 28, 2018 10:37:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
